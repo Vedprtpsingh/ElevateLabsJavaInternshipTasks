@@ -28,20 +28,6 @@ javac Calculator.java
 java Calculator
 ```
 
-## Usage Example
-```
-=== Java Console Calculator ===
-1. Addition
-2. Subtraction
-3. Multiplication
-4. Division
-5. Exit
-Enter your choice (1-5): 1
-Enter first number: 15
-Enter second number: 25
-Result: 15.0 + 25.0 = 40.0
-```
-
 ## Code Structure
 - **Calculator.java**: Main calculator class containing all functionality
 - **Methods**:
