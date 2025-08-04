@@ -27,38 +27,3 @@ javac Calculator.java
 ```bash
 java Calculator
 ```
-
-## Code Structure
-- **Calculator.java**: Main calculator class containing all functionality
-- **Methods**:
-  - `displayMenu()`: Shows operation options
-  - `performCalculation()`: Executes selected operation
-  - `getNumberInput()`: Validates numeric input
-  - `add()`, `subtract()`, `multiply()`, `divide()`: Arithmetic operations
-
-## Error Handling
-- Invalid menu choices are handled gracefully
-- Non-numeric inputs are rejected with clear error messages
-- Division by zero is prevented with appropriate feedback
-
-## Learning Objectives
-- Practice Java fundamentals (variables, methods, loops)
-- Implement switch-case statements for menu navigation
-- Handle user input and validation
-- Understand exception handling basics
-- Create a complete, runnable Java application
-
-## Extension Ideas
-- Add more operations (power, square root, modulus)
-- Implement memory functions (store/recall)
-- Add support for decimal precision control
-- Create a history of calculations
-- Add unit conversion features
-
-## Troubleshooting
-- **"javac not recognized"**: Ensure JDK is installed and added to PATH
-- **"Could not find or load main class"**: Check that you're in the correct directory when running
-- **Compilation errors**: Verify Java syntax and file naming conventions
-
-## Author
-Created as part of ElevateLabs Java Internship Tasks
